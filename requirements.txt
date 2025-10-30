@@ -1,18 +1,18 @@
-# ---- Core packages ----
+# Streamlit + Core
 streamlit>=1.27.0
 python-dotenv
 groq
 
-# ---- NLP and Embeddings ----
+# NLP + RAG
 sentence-transformers==2.2.2
-faiss-cpu==1.7.4
+faiss-cpu==1.7.2
+torch==2.1.0
+numpy<2.0
 
-# ---- Utilities ----
+# PDF + Web Search
 PyPDF2==3.0.1
 duckduckgo-search==4.1.1
 
-# ---- Torch Compatibility ----
-torch==2.1.2
-numpy<2.0
+
 
 
