@@ -8,8 +8,10 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Settings
-DEFAULT_MODEL = "llama3-8b-8192"
+DEFAULT_MODEL = "llama-3.1-8b-instant"
+
 
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
 
 
