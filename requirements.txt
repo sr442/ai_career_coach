@@ -1,18 +1,22 @@
-# Streamlit + Env
+# Streamlit + Environment
 streamlit>=1.27.0
 python-dotenv
 groq
 
-# Core ML stack (compatible with Streamlit Cloud)
+# Core ML stack (compatible with Python 3.10)
 torch==2.1.0
 transformers==4.36.2
 sentence-transformers==2.2.2
 faiss-cpu==1.7.2
+huggingface-hub==0.20.3
+tokenizers==0.15.2
 numpy<2.0
 
 # Utilities
 PyPDF2==3.0.1
 duckduckgo-search==4.1.1
+
+
 
 
 
