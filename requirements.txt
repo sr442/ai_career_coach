@@ -1,9 +1,18 @@
-streamlit>=1.26.0
-groq
+# ---- Core packages ----
+streamlit>=1.27.0
 python-dotenv
-sentence-transformers
-faiss-cpu
-PyPDF2
-duckduckgo-search
-torch<=2.2.2
+groq
+
+# ---- NLP and Embeddings ----
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# ---- Utilities ----
+PyPDF2==3.0.1
+duckduckgo-search==4.1.1
+
+# ---- Torch Compatibility ----
+torch==2.1.2
+numpy<2.0
+
 
