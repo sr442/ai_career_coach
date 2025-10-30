@@ -8,5 +8,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Settings
-DEFAULT_MODEL = "mixtral-8x7b"
+DEFAULT_MODEL = "mixtral-8x7b-32768"
+
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
